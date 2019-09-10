@@ -1,0 +1,105 @@
+.brand-logo>img {
+    height: 55px;
+}
+nav{
+  border-bottom: 5px solid #ffc400 ;
+}
+.link-text
+{
+  color:#003471;
+}
+.bluebackground
+{
+  background:#003471;
+}
+.dropdown-con {
+  position: absolute;
+  color: black;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 0;
+  top: 63px;
+}
+.triangle
+{
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom:  10px solid #ffc400;
+}
+#aboutusnav
+{
+
+    top: -20%;
+    right: 20%;
+    position: absolute;
+}
+#whyxeleratenav
+{
+
+    top: -20%;
+    right: 28%;
+    position: absolute;
+}
+#programsnav
+{
+
+    top: -20%;
+    right: 35%;
+    position: absolute;
+}
+nav ul a:hover {
+    background-color: rgba(0,0,0,0);
+}
+.nopad
+{
+  padding: 0 !important;
+}
+.heroimage>img
+{
+  width: 100%;
+  background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+ height: 35vh;
+
+}
+
+.tabs .tab a.active {
+    background-color: transparent;
+    color: #003471;
+}
+.tabs .tab a {
+    color: #003471;
+  }
+  .tabs .tab a:focus, .tabs .tab a:focus.active,
+  .tabs .tab a:hover, .tabs .tab a.active{
+      background-color: rgba(246,178,181,0);
+      color:#003471;
+}
+.tabs .indicator {
+    background-color: #ffc400;
+  }
+  .imgPlaceholder {
+    background: #FCBA04;
+    width: auto;
+    height: 200px;
+}
+.row.rowpadpromo
+{
+  padding-left: 20%;
+}
+.cimg>img {
+    width: 100%;
+}
+.nomarginbottom
+{
+  margin-bottom: 0;
+}
+.social
+{
+  width: 100%;
+}
